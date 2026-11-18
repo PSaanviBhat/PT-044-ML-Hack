@@ -1,0 +1,11 @@
+grid done (262s) best={'beta': 3, 'uturn_m': 25, 'w_e': 0.5, 'gap_s': 60} top1=0.9361
+train evaluated (291s)
+student_test evaluated (294s)
+   partition          method   top1  strict_accuracy  direct_continuity  plausible_continuity  chain_breaks  unbridged_gaps  route_f1_mean  route_len_f1_mean  decode_ms_per_1k_points
+student_test classifier_only 0.8944           0.8925             0.8140                0.8266             0              72         0.8066             0.8701                   0.0000
+student_test     hmm_default 0.9369           0.9349             0.8814                0.9905             6               3         0.9508             0.9697                  34.4968
+student_test       hmm_tuned 0.9513           0.9492             0.8900                0.9938             6               3         0.9570             0.9735                  36.6736
+       train classifier_only 0.8896           0.7867             0.8151                0.7518             0            1015         0.7824             0.8403                   0.0000
+       train     hmm_default 0.9286           0.8212             0.8687                0.9761           516              63         0.9205             0.9544                  68.6091
+       train       hmm_tuned 0.9361           0.8279             0.8670                0.9798           516              64         0.9248             0.9581                  60.5738
+done in 295s

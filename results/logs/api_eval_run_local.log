@@ -1,0 +1,67 @@
+2026-11-18 15:01:35 | INFO | ======================================================================
+2026-11-18 15:01:35 | INFO | PathSnap API started
+2026-11-18 15:01:35 | INFO | model      : XGBoost (Optuna-tuned)  (artifacts: D:\EBOOKS\SEM 5\ML Lab\Hack\PT-044-ML-Hack\artifacts)
+2026-11-18 15:01:35 | INFO | candidates : radius=50.0 m, K=8
+2026-11-18 15:01:35 | INFO | hmm params : {'beta': 3, 'uturn_m': 25, 'w_e': 0.5, 'gap_s': 60}
+2026-11-18 15:01:35 | INFO | trips dir  : D:\EBOOKS\SEM 5\ML Lab\Hack\PT-044-ML-Hack\data\eval  (10 trips: 00000015, 00000017, 00000023, 00000030, 00000049, 00000059, 00000067, 00000073, 00000087, 00000094)
+2026-11-18 15:01:35 | INFO | ======================================================================
+2026-11-18 15:01:39 | INFO | 127.0.0.1 GET /health -> 200 (10 ms)
+2026-11-18 15:01:42 | INFO | 127.0.0.1 GET /health -> 200 (4 ms)
+2026-11-18 15:01:42 | INFO | 127.0.0.1 GET /trips -> 200 (15 ms)
+2026-11-18 15:01:42 | INFO | PREDICT request from 127.0.0.1: trip 00000015
+2026-11-18 15:01:47 | INFO |   trip 00000015: 6854 GPS points, 40124 candidates, 225 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:01:47 | INFO |   timings (s): load_s=0.044, candidates_s=0.283, features_s=0.117, classifier_s=0.307, hmm_s=3.894, stitch_s=0.081, total_s=4.726, evaluation_s=0.922
+2026-11-18 15:01:47 | INFO |   metrics: Top-1=0.9527  classifier-only Top-1=0.6548  strict acc=0.9472  continuity=0.9889  route F1=0.8590
+2026-11-18 15:01:48 | INFO | 127.0.0.1 POST /predict -> 200 (6055 ms)
+2026-11-18 15:01:48 | INFO | PREDICT request from 127.0.0.1: trip 00000017
+2026-11-18 15:01:53 | INFO |   trip 00000017: 1346 GPS points, 10107 candidates, 902 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:01:53 | INFO |   timings (s): load_s=0.097, candidates_s=0.68, features_s=0.029, classifier_s=0.078, hmm_s=1.104, stitch_s=2.601, total_s=4.589, evaluation_s=0.358
+2026-11-18 15:01:53 | INFO |   metrics: Top-1=0.9198  classifier-only Top-1=0.9183  strict acc=0.9198  continuity=0.9967  route F1=0.9323
+2026-11-18 15:01:53 | INFO | 127.0.0.1 POST /predict -> 200 (5102 ms)
+2026-11-18 15:01:53 | INFO | PREDICT request from 127.0.0.1: trip 00000023
+2026-11-18 15:01:53 | INFO |   trip 00000023: 458 GPS points, 1982 candidates, 90 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:01:53 | INFO |   timings (s): load_s=0.027, candidates_s=0.053, features_s=0.008, classifier_s=0.027, hmm_s=0.203, stitch_s=0.064, total_s=0.382, evaluation_s=0.073
+2026-11-18 15:01:53 | INFO |   metrics: Top-1=0.9541  classifier-only Top-1=0.9389  strict acc=0.9541  continuity=1.0000  route F1=0.7891
+2026-11-18 15:01:53 | INFO | 127.0.0.1 POST /predict -> 200 (495 ms)
+2026-11-18 15:01:53 | INFO | PREDICT request from 127.0.0.1: trip 00000030
+2026-11-18 15:01:55 | INFO |   trip 00000030: 654 GPS points, 5132 candidates, 378 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:01:55 | INFO |   timings (s): load_s=0.046, candidates_s=0.128, features_s=0.023, classifier_s=0.044, hmm_s=0.535, stitch_s=0.481, total_s=1.257, evaluation_s=0.118
+2026-11-18 15:01:55 | INFO |   metrics: Top-1=0.8532  classifier-only Top-1=0.8333  strict acc=0.8532  continuity=1.0000  route F1=0.9402
+2026-11-18 15:01:55 | INFO | 127.0.0.1 POST /predict -> 200 (1446 ms)
+2026-11-18 15:01:55 | INFO | PREDICT request from 127.0.0.1: trip 00000049
+2026-11-18 15:01:57 | INFO |   trip 00000049: 2642 GPS points, 11628 candidates, 425 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:01:57 | INFO |   timings (s): load_s=0.074, candidates_s=0.495, features_s=0.033, classifier_s=0.094, hmm_s=1.107, stitch_s=0.071, total_s=1.875, evaluation_s=0.535
+2026-11-18 15:01:57 | INFO |   metrics: Top-1=0.9951  classifier-only Top-1=0.9921  strict acc=0.9951  continuity=0.9975  route F1=0.9796
+2026-11-18 15:01:57 | INFO | 127.0.0.1 POST /predict -> 200 (2588 ms)
+2026-11-18 15:01:57 | INFO | PREDICT request from 127.0.0.1: trip 00000059
+2026-11-18 15:01:59 | INFO |   trip 00000059: 1031 GPS points, 7482 candidates, 506 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:01:59 | INFO |   timings (s): load_s=0.049, candidates_s=0.157, features_s=0.027, classifier_s=0.068, hmm_s=0.726, stitch_s=0.739, total_s=1.766, evaluation_s=0.230
+2026-11-18 15:01:59 | INFO |   metrics: Top-1=0.9612  classifier-only Top-1=0.9496  strict acc=0.9612  continuity=0.9972  route F1=0.9599
+2026-11-18 15:02:00 | INFO | 127.0.0.1 POST /predict -> 200 (2097 ms)
+2026-11-18 15:02:00 | INFO | PREDICT request from 127.0.0.1: trip 00000067
+2026-11-18 15:02:00 | INFO |   trip 00000067: 916 GPS points, 5268 candidates, 82 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:02:00 | INFO |   timings (s): load_s=0.016, candidates_s=0.053, features_s=0.02, classifier_s=0.052, hmm_s=0.431, stitch_s=0.021, total_s=0.593, evaluation_s=0.116
+2026-11-18 15:02:00 | INFO |   metrics: Top-1=0.9825  classifier-only Top-1=0.9596  strict acc=0.9825  continuity=0.9863  route F1=1.0000
+2026-11-18 15:02:00 | INFO | 127.0.0.1 POST /predict -> 200 (755 ms)
+2026-11-18 15:02:00 | INFO | PREDICT request from 127.0.0.1: trip 00000073
+2026-11-18 15:02:02 | INFO |   trip 00000073: 1144 GPS points, 7682 candidates, 256 route arcs, chain breaks=3, unbridged gaps=0
+2026-11-18 15:02:02 | INFO |   timings (s): load_s=0.048, candidates_s=0.156, features_s=0.025, classifier_s=0.066, hmm_s=0.681, stitch_s=0.099, total_s=1.074, evaluation_s=0.180
+2026-11-18 15:02:02 | INFO |   metrics: Top-1=0.9808  classifier-only Top-1=0.9825  strict acc=0.9808  continuity=0.9957  route F1=0.9916
+2026-11-18 15:02:02 | INFO | 127.0.0.1 POST /predict -> 200 (1341 ms)
+2026-11-18 15:02:02 | INFO | PREDICT request from 127.0.0.1: trip 00000087
+2026-11-18 15:02:04 | INFO |   trip 00000087: 1399 GPS points, 8848 candidates, 454 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:02:04 | INFO |   timings (s): load_s=0.146, candidates_s=0.67, features_s=0.028, classifier_s=0.066, hmm_s=0.826, stitch_s=0.098, total_s=1.834, evaluation_s=0.321
+2026-11-18 15:02:04 | INFO |   metrics: Top-1=0.9907  classifier-only Top-1=0.9578  strict acc=0.9907  continuity=1.0000  route F1=0.9989
+2026-11-18 15:02:04 | INFO | 127.0.0.1 POST /predict -> 200 (2261 ms)
+2026-11-18 15:02:04 | INFO | PREDICT request from 127.0.0.1: trip 00000094
+2026-11-18 15:02:08 | INFO |   trip 00000094: 3230 GPS points, 21822 candidates, 715 route arcs, chain breaks=2, unbridged gaps=0
+2026-11-18 15:02:08 | INFO |   timings (s): load_s=0.04, candidates_s=0.2, features_s=0.071, classifier_s=0.221, hmm_s=1.948, stitch_s=0.362, total_s=2.842, evaluation_s=0.822
+2026-11-18 15:02:08 | INFO |   metrics: Top-1=0.9579  classifier-only Top-1=0.9328  strict acc=0.9579  continuity=0.9965  route F1=0.9489
+2026-11-18 15:02:08 | INFO | 127.0.0.1 POST /predict -> 200 (3874 ms)
+2026-11-18 15:02:36 | INFO | 127.0.0.1 GET /health -> 200 (3 ms)
+2026-11-18 15:02:36 | INFO | 127.0.0.1 GET /trips -> 200 (14 ms)
+2026-11-18 15:02:36 | INFO | PREDICT request from 127.0.0.1: trip 00000015
+2026-11-18 15:02:41 | INFO |   trip 00000015: 6854 GPS points, 40124 candidates, 225 route arcs, chain breaks=0, unbridged gaps=0
+2026-11-18 15:02:41 | INFO |   timings (s): load_s=0.04, candidates_s=0.418, features_s=0.121, classifier_s=0.353, hmm_s=3.849, stitch_s=0.072, total_s=4.854, evaluation_s=0.573
+2026-11-18 15:02:41 | INFO |   metrics: Top-1=0.9527  classifier-only Top-1=0.6548  strict acc=0.9472  continuity=0.9889  route F1=0.8590
+2026-11-18 15:02:41 | INFO | 127.0.0.1 POST /predict -> 200 (5631 ms)

@@ -1,0 +1,60 @@
+{
+  "model": "baseline_dist_heading",
+  "family": "Non-learned baseline",
+  "config": {
+    "rule": "score = -distance + 10 * cos(heading difference)"
+  },
+  "notes": "no training; probability not defined -> log loss N/A",
+  "cv": {
+    "top1": [
+      0.867557504058864,
+      0.041044390956972356
+    ],
+    "macro_f1": [
+      0.9211413275083566,
+      0.024422054077902242
+    ],
+    "precision": [
+      0.867557504058864,
+      0.041044390956972356
+    ],
+    "recall": [
+      0.8713592718539014,
+      0.03850476403362981
+    ],
+    "accuracy": [
+      0.9550741433640388,
+      0.015130778655460066
+    ],
+    "route_continuity": [
+      0.7048353238298689,
+      0.03123423279451362
+    ]
+  },
+  "student_test": {
+    "accuracy": 0.955379632961497,
+    "precision": 0.8627020241644437,
+    "recall": 0.8646013524139016,
+    "macro_f1": 0.9184878911689154,
+    "precision_macro": 0.9181182945338864,
+    "recall_macro": 0.9188585770887525,
+    "log_loss": NaN,
+    "confusion": [
+      [
+        95016,
+        2625
+      ],
+      [
+        2583,
+        16494
+      ]
+    ],
+    "top1": 0.8627020241644437,
+    "strict_accuracy": 0.8608559498956159,
+    "route_continuity": 0.6916527854895429,
+    "n_matched_points": 19119
+  },
+  "fit_time_full_s": 0.0,
+  "inference_ms_per_1k_points": 2.9146085595055937,
+  "seed": 42
+}

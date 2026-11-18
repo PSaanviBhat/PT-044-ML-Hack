@@ -1,0 +1,69 @@
+=== gaussian_nb
+  [gaussian_nb] fold 0: top1=0.8332 macroF1=0.8075 logloss=1.0692 fit=0.8s
+  [gaussian_nb] fold 1: top1=0.8684 macroF1=0.8272 logloss=0.6987 fit=0.9s
+  [gaussian_nb] fold 2: top1=0.8936 macroF1=0.8325 logloss=0.7519 fit=0.8s
+  [gaussian_nb] fold 3: top1=0.7353 macroF1=0.7810 logloss=1.5684 fit=0.8s
+  [gaussian_nb] fold 4: top1=0.7685 macroF1=0.7937 logloss=1.1298 fit=0.8s
+  [gaussian_nb] student_test: top1=0.7966 macroF1=0.8059 logloss=1.0128 continuity=0.7325
+=== gaussian_nb done in 13s
+=== lightgbm
+  [lightgbm] fold 0: top1=0.8810 macroF1=0.9253 logloss=0.1043 fit=17.0s
+  [lightgbm] fold 1: top1=0.9226 macroF1=0.9505 logloss=0.0595 fit=13.5s
+  [lightgbm] fold 2: top1=0.9376 macroF1=0.9606 logloss=0.0561 fit=12.5s
+  [lightgbm] fold 3: top1=0.8622 macroF1=0.9144 logloss=0.1215 fit=13.5s
+  [lightgbm] fold 4: top1=0.8411 macroF1=0.9014 logloss=0.1263 fit=11.5s
+C:\Users\psaan\anaconda3\envs\gpu_env\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+  [lightgbm] student_test: top1=0.8914 macroF1=0.9352 logloss=0.0834 continuity=0.8120
+=== lightgbm done in 100s
+=== xgboost
+  [xgboost] fold 0: top1=0.8792 macroF1=0.9251 logloss=0.1032 fit=16.2s
+  [xgboost] fold 1: top1=0.9200 macroF1=0.9491 logloss=0.0610 fit=14.0s
+  [xgboost] fold 2: top1=0.9391 macroF1=0.9605 logloss=0.0568 fit=14.9s
+  [xgboost] fold 3: top1=0.8630 macroF1=0.9143 logloss=0.1201 fit=20.5s
+  [xgboost] fold 4: top1=0.8381 macroF1=0.9014 logloss=0.1277 fit=13.5s
+  [xgboost] student_test: top1=0.8992 macroF1=0.9371 logloss=0.0823 continuity=0.8125
+=== xgboost done in 108s
+=== hist_gb
+  [hist_gb] fold 0: top1=0.8758 macroF1=0.9249 logloss=0.1167 fit=18.8s
+  [hist_gb] fold 1: top1=0.9155 macroF1=0.9472 logloss=0.0697 fit=11.2s
+  [hist_gb] fold 2: top1=0.9314 macroF1=0.9556 logloss=0.0733 fit=11.4s
+  [hist_gb] fold 3: top1=0.8551 macroF1=0.9101 logloss=0.1360 fit=11.0s
+  [hist_gb] fold 4: top1=0.8326 macroF1=0.8973 logloss=0.1510 fit=11.5s
+  [hist_gb] student_test: top1=0.8899 macroF1=0.9329 logloss=0.0973 continuity=0.7705
+=== hist_gb done in 96s
+=== random_forest
+  [random_forest] fold 0: top1=0.8820 macroF1=0.9258 logloss=0.1044 fit=73.0s
+  [random_forest] fold 1: top1=0.9178 macroF1=0.9493 logloss=0.0635 fit=73.9s
+  [random_forest] fold 2: top1=0.9376 macroF1=0.9609 logloss=0.0596 fit=72.6s
+  [random_forest] fold 3: top1=0.8646 macroF1=0.9166 logloss=0.1185 fit=69.4s
+  [random_forest] fold 4: top1=0.8345 macroF1=0.9000 logloss=0.1297 fit=72.0s
+  [random_forest] student_test: top1=0.8868 macroF1=0.9326 logloss=0.0859 continuity=0.7921
+=== random_forest done in 468s
+=== mlp
+  [mlp] fold 0: top1=0.8823 macroF1=0.9230 logloss=0.1133 fit=259.9s
+  [mlp] fold 1: top1=0.9137 macroF1=0.9425 logloss=0.0748 fit=418.2s
+  [mlp] fold 2: top1=0.9314 macroF1=0.9531 logloss=0.0700 fit=337.1s
+  [mlp] fold 3: top1=0.8537 macroF1=0.9050 logloss=0.1595 fit=206.1s
+  [mlp] fold 4: top1=0.8229 macroF1=0.8860 logloss=0.1746 fit=475.9s
+  [mlp] student_test: top1=0.8916 macroF1=0.9295 logloss=0.0930 continuity=0.8045
+=== mlp done in 1911s
+=== knn
+  [knn] fold 0: top1=0.8540 macroF1=0.9013 logloss=0.1818 fit=0.1s
+  [knn] fold 1: top1=0.8949 macroF1=0.9222 logloss=0.1119 fit=0.1s
+  [knn] fold 2: top1=0.9162 macroF1=0.9432 logloss=0.1028 fit=0.1s
+  [knn] fold 3: top1=0.8465 macroF1=0.9014 logloss=0.1999 fit=0.1s
+  [knn] fold 4: top1=0.8085 macroF1=0.8811 logloss=0.2161 fit=0.1s
+  [knn] student_test: top1=0.8622 macroF1=0.9134 logloss=0.1458 continuity=0.7697
+=== knn done in 182s
+                model  cv_top1  cv_macro_f1  cv_log_loss  st_top1  st_macro_f1  st_log_loss  st_route_continuity  fit_time_s  inference_ms_per_1k_points
+             lightgbm 0.888900     0.930441     0.093554 0.891365     0.935170     0.083364             0.811990   17.664747                   21.951044
+              xgboost 0.887886     0.930066     0.093749 0.899210     0.937073     0.082286             0.812541   20.614494                    5.731482
+        random_forest 0.887298     0.930532     0.095124 0.886762     0.932599     0.085885             0.792140   94.292361                   21.995068
+              hist_gb 0.882072     0.927028     0.109332 0.889900     0.932898     0.097334             0.770515   14.753749                   17.244008
+                  mlp 0.880812     0.921917     0.118450 0.891574     0.929514     0.092977             0.804524  203.500232                    3.433685
+               logreg 0.868264     0.906872     0.142941 0.862859     0.908448     0.132554             0.723912    6.062940                    2.182343
+baseline_dist_heading 0.867558     0.921141          NaN 0.862702     0.918488          NaN             0.691653    0.000000                    2.914609
+                  knn 0.864008     0.909840     0.162521 0.862179     0.913359     0.145849             0.769741    0.076456                  684.204609
+          gaussian_nb 0.819792     0.808362     1.043632 0.796590     0.805893     1.012767             0.732490    1.265834                    5.108904
+     baseline_nearest 0.555257     0.732443          NaN 0.537633     0.723942          NaN             0.414188    0.000000                    2.182009

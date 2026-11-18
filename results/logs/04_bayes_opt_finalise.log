@@ -1,0 +1,5 @@
+[I 2026-11-18 14:20:30,862] Using an existing study with `study_name='xgboost_top1'` instead of creating a new one.
+best trial 26 0.8906501290518938 {'n_estimators': 800, 'learning_rate': 0.032784293445229554, 'max_depth': 11, 'min_child_weight': 4.4591431531478065, 'subsample': 0.778630780417708, 'colsample_bytree': 0.9803051453707186, 'gamma': 0.9443303958965052, 'reg_alpha': 9.109852884180164e-06, 'reg_lambda': 0.002019781049572206, 'scale_pos_weight': 2.3103591511849535}
+                 model  cv_top1  cv_macro_f1  cv_log_loss  st_top1  st_macro_f1  st_log_loss  st_route_continuity  fit_time_s  inference_ms_per_1k_points
+       XGBoost untuned   0.8879       0.9301       0.0937   0.8992       0.9371       0.0823               0.8125     20.6145                      5.7315
+XGBoost tuned (Optuna)   0.8907       0.9312       0.1002   0.8944       0.9340       0.0872               0.8140     49.7025                     25.8599

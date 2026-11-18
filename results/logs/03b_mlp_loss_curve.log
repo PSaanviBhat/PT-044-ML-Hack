@@ -1,0 +1,14 @@
+{'epoch': 1, 'train_log_loss': 0.10082069039344788, 'val_log_loss': 0.11838863044977188, 'val_top1': np.float64(0.8760869565217392), 'seconds': 4.387178182601929}
+{'epoch': 2, 'train_log_loss': 0.09434007853269577, 'val_log_loss': 0.11362624168395996, 'val_top1': np.float64(0.8778897136797454), 'seconds': 8.51560640335083}
+{'epoch': 3, 'train_log_loss': 0.09124287217855453, 'val_log_loss': 0.1137685626745224, 'val_top1': np.float64(0.876458112407211), 'seconds': 13.561714887619019}
+{'epoch': 4, 'train_log_loss': 0.09037172049283981, 'val_log_loss': 0.11906752735376358, 'val_top1': np.float64(0.8774125132555674), 'seconds': 18.19871759414673}
+{'epoch': 5, 'train_log_loss': 0.08768506348133087, 'val_log_loss': 0.11190584301948547, 'val_top1': np.float64(0.8763520678685047), 'seconds': 22.15312933921814}
+{'epoch': 6, 'train_log_loss': 0.08519548922777176, 'val_log_loss': 0.11284652352333069, 'val_top1': np.float64(0.876405090137858), 'seconds': 26.53212332725525}
+{'epoch': 7, 'train_log_loss': 0.08330638706684113, 'val_log_loss': 0.11383723467588425, 'val_top1': np.float64(0.8779162248144221), 'seconds': 30.27032470703125}
+{'epoch': 8, 'train_log_loss': 0.08298180252313614, 'val_log_loss': 0.11159740388393402, 'val_top1': np.float64(0.8787645811240721), 'seconds': 34.108816146850586}
+{'epoch': 9, 'train_log_loss': 0.0830935537815094, 'val_log_loss': 0.11491133272647858, 'val_top1': np.float64(0.8781813361611877), 'seconds': 37.87861442565918}
+{'epoch': 10, 'train_log_loss': 0.08064305782318115, 'val_log_loss': 0.11394484341144562, 'val_top1': np.float64(0.8775715800636267), 'seconds': 41.54178190231323}
+{'epoch': 11, 'train_log_loss': 0.08178816735744476, 'val_log_loss': 0.11675185710191727, 'val_top1': np.float64(0.8747348886532343), 'seconds': 45.715171575546265}
+{'epoch': 12, 'train_log_loss': 0.08068464696407318, 'val_log_loss': 0.11933411657810211, 'val_top1': np.float64(0.8783138918345705), 'seconds': 49.898760080337524}
+{'epoch': 13, 'train_log_loss': 0.07947961986064911, 'val_log_loss': 0.11399019509553909, 'val_top1': np.float64(0.8781548250265111), 'seconds': 54.102850675582886}
+{'epoch': 14, 'train_log_loss': 0.07808198779821396, 'val_log_loss': 0.11451845616102219, 'val_top1': np.float64(0.8781548250265111), 'seconds': 58.16498422622681}

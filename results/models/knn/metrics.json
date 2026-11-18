@@ -1,0 +1,84 @@
+{
+  "model": "knn",
+  "family": "Instance-based",
+  "config": {
+    "n_neighbors": 25,
+    "weights": "distance",
+    "metric": "euclidean",
+    "scaling": "StandardScaler"
+  },
+  "notes": "fit on 20k observations (~115k rows): prediction cost grows with the reference set",
+  "train_subsample_obs": 20000,
+  "cv": {
+    "top1": [
+      0.864008320108602,
+      0.04231733309368472
+    ],
+    "macro_f1": [
+      0.9098399894336658,
+      0.02364036454107061
+    ],
+    "log_loss": [
+      0.16252064518027334,
+      0.0518991785266244
+    ],
+    "precision": [
+      0.8837827662640017,
+      0.038248380788939135
+    ],
+    "recall": [
+      0.8178228652937595,
+      0.044356922079452764
+    ],
+    "accuracy": [
+      0.9505096333756576,
+      0.01380943183699835
+    ],
+    "route_continuity": [
+      0.7678232464435262,
+      0.05510010540568557
+    ],
+    "train_top1": [
+      0.8909158762773979,
+      0.040370155892357054
+    ],
+    "train_macro_f1": [
+      0.9288222993490519,
+      0.020741358015374755
+    ],
+    "train_log_loss": [
+      0.11493264592415983,
+      0.026237246193006585
+    ],
+    "fit_time_s": [
+      0.08614827999990667,
+      0.011507814941774903
+    ]
+  },
+  "student_test": {
+    "accuracy": 0.9540345105296527,
+    "precision": 0.8880461851935703,
+    "recall": 0.8224563610630602,
+    "macro_f1": 0.9133587272452803,
+    "precision_macro": 0.9269256670541299,
+    "recall_macro": 0.9010992387959886,
+    "log_loss": 0.14584880811785614,
+    "confusion": [
+      [
+        95663,
+        1978
+      ],
+      [
+        3387,
+        15690
+      ]
+    ],
+    "top1": 0.8621789842564987,
+    "strict_accuracy": 0.8603340292275574,
+    "route_continuity": 0.7697408077154912,
+    "n_matched_points": 19119
+  },
+  "fit_time_full_s": 0.07645640000009735,
+  "inference_ms_per_1k_points": 684.2046085594956,
+  "seed": 42
+}

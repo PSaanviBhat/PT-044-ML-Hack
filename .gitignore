@@ -1,7 +1,8 @@
 # raw data (distributed separately; see README)
-data/
-cache/
-logs/
+/data/
+/cache/
+# runtime logs of the local API (curated experiment logs are kept in results/logs/)
+/logs/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
