@@ -1,0 +1,7 @@
+{
+  "radius_m": 50.0,
+  "k": 8,
+  "miss_rate_train": 0.0045680927941320615,
+  "cands_per_point": 5.7211727303306175,
+  "rule": "cheapest within 0.5pp of best miss rate"
+}

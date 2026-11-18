@@ -1,0 +1,43 @@
+{
+  "params": {
+    "beta": 5,
+    "uturn_m": 25,
+    "w_e": 0.5,
+    "gap_s": 120
+  },
+  "train_oof_top1": 0.9360141491520274,
+  "default_params": {
+    "beta": 10.0,
+    "uturn_m": 50.0,
+    "gap_s": 60.0,
+    "w_e": 1.0
+  },
+  "grid": {
+    "beta": [
+      3,
+      5,
+      8,
+      12,
+      20,
+      40
+    ],
+    "uturn_m": [
+      0,
+      25,
+      75,
+      200
+    ],
+    "w_e": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "gap_s": [
+      30,
+      60,
+      120
+    ]
+  },
+  "objective": "pooled Top-1 on matched points, train OOF probabilities",
+  "model": "xgboost"
+}
