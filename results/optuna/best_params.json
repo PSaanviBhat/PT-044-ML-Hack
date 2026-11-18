@@ -1,0 +1,20 @@
+{
+  "best_cv_top1": 0.8906501290518938,
+  "user_cv_log_loss": 0.10015661641955376,
+  "user_cv_macro_f1": 0.9311729175802401,
+  "user_cv_top1_std": 0.03696013393560359,
+  "user_folds_done": 5,
+  "user_seconds": 216.11406135559082,
+  "params": {
+    "n_estimators": 800,
+    "learning_rate": 0.032784293445229554,
+    "max_depth": 11,
+    "min_child_weight": 4.4591431531478065,
+    "subsample": 0.778630780417708,
+    "colsample_bytree": 0.9803051453707186,
+    "gamma": 0.9443303958965052,
+    "reg_alpha": 9.109852884180164e-06,
+    "reg_lambda": 0.002019781049572206,
+    "scale_pos_weight": 2.3103591511849535
+  }
+}

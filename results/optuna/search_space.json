@@ -1,0 +1,12 @@
+{
+  "n_estimators": "int [150, 900] step 50",
+  "learning_rate": "float [0.01, 0.3] log",
+  "max_depth": "int [3, 11]",
+  "min_child_weight": "float [1, 50] log",
+  "subsample": "float [0.5, 1.0]",
+  "colsample_bytree": "float [0.4, 1.0]",
+  "gamma": "float [0, 5]",
+  "reg_alpha": "float [1e-8, 10] log",
+  "reg_lambda": "float [1e-3, 20] log",
+  "scale_pos_weight": "float [1, 6]"
+}

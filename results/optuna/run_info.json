@@ -1,0 +1,22 @@
+{
+  "n_trials_total": 30,
+  "n_complete": 23,
+  "n_pruned": 7,
+  "search_wall_time_s": 5703.761143,
+  "sampler": "TPE(seed=42, n_startup_trials=10)",
+  "pruner": "MedianPruner(n_startup_trials=8, n_warmup_steps=1)",
+  "objective": "mean 5-fold GroupKFold observation-level Top-1 on 80 train trips",
+  "tuned_student_test": {
+    "accuracy": 0.9633132850117377,
+    "precision": 0.8728014917099229,
+    "recall": 0.907847145777638,
+    "macro_f1": 0.9339829158696937,
+    "precision_macro": 0.9273271974678647,
+    "recall_macro": 0.9409986745366923,
+    "log_loss": 0.08716506522198443,
+    "top1": 0.8943982425859093,
+    "strict_accuracy": 0.8924843423799582,
+    "route_continuity": 0.8139894086496028,
+    "n_matched_points": 19119
+  }
+}
